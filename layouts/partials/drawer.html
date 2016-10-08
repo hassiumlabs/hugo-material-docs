@@ -3,7 +3,12 @@
     <div class="banner">
       {{ with .Site.Params.logo }}
         <div class="logo">
-          <img src="{{ $.Site.BaseURL }}{{ . }}">
+          <div class="hs-logo">
+            <div class="hs-logo-num">108</div>
+            <div class="hs-logo-symbol">Hs</div>
+            <div class="hs-logo-name">Hassium</div>
+            <div class="hs-logo-isotope">[269]</div>
+          </div>
         </div>
       {{ end }}
       <div class="name">
